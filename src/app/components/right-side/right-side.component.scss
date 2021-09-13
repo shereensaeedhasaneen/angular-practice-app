@@ -1,0 +1,75 @@
+.logout{
+   width: 95%;
+    height: 98px;
+    border-radius: 27px;
+    background: #fff;
+
+    margin: 0;
+}
+
+.logout div{
+    display: flex;
+    align-items: center;
+}
+
+.logout div.col-5 span{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #2e4765;
+    opacity: 0.5;
+
+}
+
+/*************** second Section ****************/
+.sec-section{
+    width: 95%;
+    background: #fff;
+    border-radius: 27px;
+    padding: 7% 8%;
+}
+
+.sec-section h1.trends{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 21px !important;
+    text-align: left;
+    color: #ababfd;
+    text-transform: uppercase;
+
+}
+
+.sec-section p.buy{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    color: #2e4765;
+
+}
+
+.sec-section p.details{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #2e4765;
+
+}
+
+/************* third Section ****************/
+.third-sec p{
+    width: 284px;
+    height: 113px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    color: #2e4765;
+
+}
+
+.third-sec{
+    overflow: hidden;
+}

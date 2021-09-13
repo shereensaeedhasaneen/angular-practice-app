@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'study-angular'`, () => {
+  it(`should have as title 'student-dashboard'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('study-angular');
+    expect(app.title).toEqual('student-dashboard');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('study-angular app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('student-dashboard app is running!');
   });
 });
